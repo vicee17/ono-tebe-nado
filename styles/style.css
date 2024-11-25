@@ -11,7 +11,7 @@
 }
 
 .header-menu-list {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   display: flex;
@@ -27,7 +27,6 @@
 
 .header-menu-link {
   padding-right: 10px;
-  text-decoration: 1px solid black;
   text-underline-offset: 4px;
 }
 
@@ -49,7 +48,7 @@
 }
 
 .header-contact-list {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -175,9 +174,8 @@
   height: 563px;
 }
 
-
 .lots-list-card {
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   list-style: none;
@@ -282,10 +280,14 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: start;
   padding: 313px 50px 88px;
 }
 
 .footer-contact-list {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
   list-style-type: none;
   font-style: normal;
 }
@@ -296,15 +298,16 @@
 }
 
 .footer-menu-list {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
   list-style-type: none;
   text-align: center;
-  border-bottom: 1px solid black;
   text-underline-offset: 4px;
 }
 
 .images {
   display: flex;
   gap: 48px;
-  position: relative;
-  bottom: 25px;
+  
 }
